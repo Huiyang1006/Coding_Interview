@@ -67,6 +67,7 @@ class Sol1 {
 }
 
 class Sol2 {
+    /*Solution 2, count only once, track the character with odd number*/
     public boolean Is_Palindrome(String str) {
 
         int Odd = 0;
@@ -83,4 +84,6 @@ class Sol2 {
 
         return Odd<=1;
     }
+    // Time complexity O(n)
+    // Space complexity O(1)
 }
