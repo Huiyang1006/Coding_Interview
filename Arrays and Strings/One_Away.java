@@ -27,7 +27,7 @@ public class One_Away {
     }
 
     public static void test(String a, String b, boolean expected) {
-		boolean resultA = Sol2.OneEditAway(a, b);
+		boolean resultA = Sol1.OneEditAway(a, b);
 		boolean resultB = Sol2.OneEditAway(a, b);		
 		
 		if (resultA == expected && resultB == expected) {
