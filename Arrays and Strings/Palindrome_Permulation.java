@@ -18,7 +18,7 @@ public class Palindrome_Permulation {
 
 /*Utility*/
 class utility {
-        public static int getCharNumber(char c) {
+    public static int getCharNumber(char c) {
         int a = Character.getNumericValue('a');
 		int z = Character.getNumericValue('z');
 		
